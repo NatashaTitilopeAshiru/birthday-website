@@ -1,0 +1,168 @@
+
+body {
+font-family: "Happy Monkey", system-ui;
+font-style: italic;
+background: linear-gradient(#ffcfd2, #f1c0e8, #f1c0e8);
+color: #ffffff;
+margin: 0;
+padding: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#header{
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#simi-photo {
+  width: 200px;  
+  height: 200px; 
+  border-radius: 50%;
+  border-color: #8eecf5;
+  border-width: 5px;
+  border-style: solid;
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0 0 1px #000000;
+}
+
+#age, #date {
+background-color: #8eecf5;
+padding: 5px 10px;
+border-radius: 5px;
+margin-top: 8px;
+margin-bottom: 10px;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-hint {
+  margin-bottom: 10px;
+}
+
+.gift-image {
+  background-image: url("../images/gift.png");
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.gift-image:hover {
+  background-image: url("../images/Happy.gif");
+}
+
+#gift-image2 {
+  background-image: url("../images/gift.png");
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#gift-image3 {
+  background-image: url("../images/gift.png");
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#gift-image4 {
+  background-image: url("../images/gift.png");
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#gift-image5 {
+  background-image: url("../images/gift.png");
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#gift-image2:hover {
+  background-image: url("../images/Valentines\ Day\ Love\ GIF.gif");
+}
+
+#gift-image3:hover {
+  background-image: url("../images/bubble\ butt\ buns\ GIF.gif");
+}
+
+#gift-image4:hover {
+  background-image: url("../images/seth\ meyers\ burn\ them\ at\ the\ stake\ GIF\ by\ Late\ Night\ with\ Seth\ Meyers.gif");
+}
+
+#gift-image5:hover {
+  background-image: url("../images/Dave\ Chappelle\ Im\ Rich\ Bitch\ GIF.gif");
+}
+
+#birthday-note {
+    background-color: white;
+    color: blue;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    border: 6px solid #90dbf4;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3); 
+    font-family: "Happy Monkey", system-ui;
+    font-style: italic;
+    transform: rotate(-2deg); 
+}
+
+#confetti-button {
+    margin-top: 20px;
+    padding: 20px 30px;
+    font-size: 16px;
+    background-color: #98f5e1;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.heart {
+  position: fixed;
+  bottom: 0;
+  font-size: 24px;
+  animation: floatUp 3s ease-in forwards;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1.5);
+    opacity: 0;
+  }
+}
